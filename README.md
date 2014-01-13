@@ -41,13 +41,17 @@ To create a diff for an individual package, the QDIFF-TO-FILE function can be us
 
 Change Log
 ----------
-2011-09-27  Hans Huebner  Original version
-2011-10-01  Jonathan Lee  Added the ability to find diffs on a Windows box
-                          and packaged it into a project 
-2011-11-10  Jonathan Lee  Added the ability to generate unified diff files
-                          for an individual project or all changed projects
-2014-01-12  Jonathan Lee  Added code to implement the option of not creating
-                          diff files. Updated functions to handle changes in
-                          the way external-program:run works.
+<table>
+<tr><td>2011-09-27</td><td>Hans Huebner</td><td>Original version</td></tr>
+<tr><td>2011-10-01</td><td>Jonathan Lee</td>
+    <td>Added the ability to find diffs on a Windows box and packaged it into a project </td></tr>
+<tr><td>2011-11-10</td><td>Jonathan Lee</td>
+    <td>Added the ability to generate unified diff files for an individual project or all changed projects</td></tr>
+<tr><td>2014-01-12</td><td>Jonathan Lee</td>
+    <td>Added code to implement the option of not creating diff files. Updated functions to handle changes in the way external-program:run works.</td></tr>
+</table>
 
+License
+-------
+MIT. See "LICENSE".
 
